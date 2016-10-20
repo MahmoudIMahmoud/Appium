@@ -1,1 +1,7 @@
 # AppiumPythonTut
+Basic Setup:
+Open Appium (server)
+In the adroid settings:
+    Clear all the check boxes.
+    Install the app on the mobile/emulator.
+    
