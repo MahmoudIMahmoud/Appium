@@ -1,5 +1,5 @@
 # AppiumPythonTut
-##Basic Setup:
+##<i class="icon-cog"></i> **Settings**:
 -   Open Appium (server)
 -   In the adroid settings:
     -   Clear all the check boxes.
