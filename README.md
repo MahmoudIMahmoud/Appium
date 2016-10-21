@@ -6,8 +6,8 @@
                         'app':os.path.abspath("./Apps/app-debug.apk")}
 ```
 ##Get your device name:
-    **On the command run:
-        ```shell
+    ###On the command run:
+        ```bat
         adb devices
         ```
 ##Settings:
