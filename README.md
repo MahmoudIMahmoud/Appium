@@ -1,6 +1,16 @@
 # AppiumPythonTut
+##Code Changes:
+
+```python
+        desired_caps = {'platformName': "Android", 'deviceName': "<Your device here>",
+                        'app':os.path.abspath("./Apps/app-debug.apk")}
+```
+##Get your device name:
+    **On the command run:
+        ```shell
+        adb devices
+        ```
 ##Settings:
-**
 -   Open Appium (server)
 -   In the adroid settings:
     -   Clear all the check boxes.
