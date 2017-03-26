@@ -12,3 +12,7 @@ Get the path of the apk on the device.
 adb shell pm list packages -f | findstr <any part of package you may know>
 adb pull <APK path from previous command>
 ```
+###Another Way using ADB.<BR>
+```shell
+adb shell dumpsys window windows | findstr Focus
+```
