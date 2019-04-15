@@ -16,3 +16,18 @@
     -   Clear all the check boxes.
     -   Install the app on the mobile/emulator.
     ![](https://github.com/MahmoudIMahmoud/AppiumPythonTut/blob/master/Untitled.jpg)
+
+##Robot version with fastining desired caps:
+Open Application    ${APPIUM_SERVER}
+                        ...     deviceName=${deviceName}
+                        ...     automationName=${automationName}
+                        ...     platformName=${platformName}
+                        ...     appActivity=${appActivity}
+                        ...     appPackage=${appPackage}
+                        ...     autoGrantPermissions=True
+                        ...     noReset=True
+                        ...    noSign=True
+                        ...    skipDeviceInitialization=true
+                        ...    skipUnlock=True
+                        ...    skipServerInstallation=True
+                        
