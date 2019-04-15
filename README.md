@@ -18,6 +18,7 @@
     ![](https://github.com/MahmoudIMahmoud/AppiumPythonTut/blob/master/Untitled.jpg)
 
 ##Robot version with fastining desired caps:
+```robotframework
 Open Application    ${APPIUM_SERVER}
                         ...     deviceName=${deviceName}
                         ...     automationName=${automationName}
@@ -31,3 +32,4 @@ Open Application    ${APPIUM_SERVER}
                         ...    skipUnlock=True
                         ...    skipServerInstallation=True
                         
+```
